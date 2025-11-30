@@ -3,7 +3,7 @@
 <img width="1827" height="714" alt="image" src="https://github.com/user-attachments/assets/14b973ba-f427-48d8-9cb8-784de2409a8a" />
 
 
-### Devices:
+### Devices: 
 - Routers: ISP, R1, R2, R3, R4
 - Switches per site (supporting VLANs)
 - End Devices (PCs)
