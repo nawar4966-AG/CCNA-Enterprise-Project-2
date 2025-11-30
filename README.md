@@ -106,50 +106,56 @@ A complete CCNA-level enterprise-style Layer 2 / Layer 3 lab demonstrating VLAN 
 Essential Tests and expected results in Screenshots.
 ### Layer 3 Routing (R1-4&ISP)
 - Verify OSPF routes:
-	show ip route
+	`show ip route`
 - OSPF adjacency check:
-	show ip ospf neighbor
+	`show ip ospf neighbor`
 - PPP/CHAP line protocol status:
-	show interfaces s0/1/0
-	show run
+	`show interfaces serial 0/1/0`
+	`show run`
 - Check reachability to Server0:
-    ping 192.168.10.10 
+    `ping 192.168.10.10` 
 
 ### DHCP (R1-4)
 - see the IPs assigned through DHCP on each PC and the corresponding MAC-Address:
-	show ip dhcp binding
+	`show ip dhcp binding`
 - PCs should receive DHCP addresses in their assigned VLANs.
 
 ### VLAN & Trunking (core & access Switches)
 - Verify VLANs exist:
-	show vlan brief 
+	`show vlan brief` 
 - See trunking interfaces:
-	show interfaces trunk 
+	`show interfaces trunk` 
 - Confirm client/server mode:
-	show vtp status
+	`show vtp status`
 
 ### EtherChannel (core & access Switches)
 - Confirm channel-group status:
-	show etherchannel
-	show etherchannel summary
+	`show etherchannel`
+	`show etherchannel summary`
 
 ### PVST (access Switches)
 - Make sure that Root primary/secondary placement correct per design (ex. VLAN 10&20 are primary on SW1.1).
-	show spanning-tree
+	`show spanning-tree`
 
 ### Management Services
 - TFTP backups successful via checking the TFTP service on Server0:
-	Router#copy run tftp
+	`copy run tftp`
 - Clock synchronized via NTP:
-    Router#show clock
+    `show clock`
 - Syslog messages visible on Server0
 
 ### ACL Behavior
 - Test deny/permit scenarios from specific PCs:
     - PC30 → ping to Server0 blocked
+      `ping 192.168.10.10`
     - PC23 → telnet to Server0 blocked
+      `telnet 192.168.10.10`
     - VLAN 10 → ping to VLAN 70 blocked
+      `ping 192.168.70.2`
     - VLAN 80 → ping to VLAN 130/140 blocked
+      `ping 192.168.130.2`
+      `ping 192.168.140.2`
+
 
 ## Notes:
 - Version of Packet Tracer for this project is 9.0.0
