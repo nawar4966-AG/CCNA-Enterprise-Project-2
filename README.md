@@ -136,6 +136,7 @@ Essential Tests and expected results in Screenshots.
 ### PVST (access Switches)
 - Make sure that Root primary/secondary placement correct per design (ex. VLAN 10&20 are primary on SW1.1).
 	`show spanning-tree`
+	`show spanning-tree summary`
 
 ### Management Services
 - TFTP backups successful via checking the TFTP service on Server0:
