@@ -110,8 +110,8 @@ Essential Tests and expected results in Screenshots.
 - OSPF adjacency check:
 	show ip ospf neighbor
 - PPP/CHAP line protocol status:
-	show interfaces serial x/x/x
-	show ppp all
+	show interfaces s0/1/0
+	show run
 - Check reachability to Server0:
     ping 192.168.10.10 
 
