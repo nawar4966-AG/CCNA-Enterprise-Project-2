@@ -155,7 +155,7 @@ Essential Tests and expected results in Screenshots.
 - Version of Packet Tracer for this project is 9.0.0
 - Before routers configurations it is necessary to add the Cisco Network Interface Module "NIM-2T" on each router (Router type 4321), except for ISP which needs two NIM-2T modules as each module provide two serial interfaces, steps are shown in the screenshots below
 <img width="986" height="548" alt="image" src="https://github.com/user-attachments/assets/ea8c486f-f68b-4d84-ba59-137f128fe8c0" />
-<img width="840" height="497" alt="image" src="https://github.com/user-attachments/assets/b439e26a-f7b8-4bc4-b1f2-760d5be36fbc" />
+<img width="840" height="497" alt="image" src="https://github.com/user-attachments/assets/d461e7ee-06e7-4e03-9684-fe05ea9e1aed" />
 
 
 - Make sure to start the configuration from Server0, the layer 2 perspective (core then access Switches) then moving on to the Layer 3 Routers (R1-4 then ISP), and at last testing DHCP, ACLs, Ping, Telnet on all PCs
