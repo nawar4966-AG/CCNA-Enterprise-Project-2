@@ -19,7 +19,8 @@ Expected:
 - Connected gateways for local VLANs (marked “C”).
 - Serial WAN links marked “C” on each side.
 
-  <img width="646" height="684" alt="Pasted image 20251130185714" src="https://github.com/user-attachments/assets/d2594a0f-6d6f-4ce7-9eeb-c6219ff8b134" />
+  <img width="597" height="629" alt="image" src="https://github.com/user-attachments/assets/cbba1711-10ae-4be4-9f91-be2af1d4f451" />
+
 
 
 ## 2. PPP & CHAP Authentication
@@ -77,7 +78,11 @@ Expected:
 - Server switches: Mode = server
 - Downstream switches: Mode = client
 
-<img width="532" height="196" alt="image" src="https://github.com/user-attachments/assets/2f5fde3b-1348-4f6f-8130-1dab0eff802c" />
+<img width="531" height="190" alt="image" src="https://github.com/user-attachments/assets/98b824df-a5b1-4b87-bd3d-5e80cdb558e6" />
+
+<img width="544" height="240" alt="image" src="https://github.com/user-attachments/assets/f7dad601-9527-44bf-bc20-f682411db7ae" />
+
+
 
 ### 4.3 Trunk Verification
 `show interfaces trunk`
