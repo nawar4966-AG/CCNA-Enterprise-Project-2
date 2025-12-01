@@ -1,10 +1,12 @@
+en
+conf t
 hostname ISP
 username R1 password cisco
 username R2 password cisco
 username R3 password cisco
 username R4 password cisco
 interface Loopback 0
-ip address 1.1.1.1 255.255.255.255  
+ip address 1.1.1.5 255.255.255.255  
 ex
 interface s0/1/0
 ip address 192.168.200.1 255.255.255.252
