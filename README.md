@@ -96,11 +96,11 @@ A complete CCNA-level enterprise-style Layer 2 / Layer 3 lab demonstrating VLAN 
 ### 4. Interface loopback on R1-4 Routers \32
 | Device | Interface            | IP Address |
 | ------ | -------------------- | ---------- |
-| ISP    | interface Loopback 0 | 1.1.1.1    |
-| R1     | interface Loopback 0 | 1.1.1.2    |
-| R2     | interface Loopback 0 | 1.1.1.3    |
-| R3     | interface Loopback 0 | 1.1.1.4    |
-| R4     | interface Loopback 0 | 1.1.1.5    |
+| R1     | interface Loopback 0 | 1.1.1.1    |
+| R2     | interface Loopback 0 | 1.1.1.2    |
+| R3     | interface Loopback 0 | 1.1.1.3    |
+| R4     | interface Loopback 0 | 1.1.1.4    |
+| ISP    | interface Loopback 0 | 1.1.1.5    |
 
 ## Verification Checklist 
 Essential Tests and expected results in Screenshots.
