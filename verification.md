@@ -185,7 +185,8 @@ From PC23 (VLAN 120):
 `http://192.168.10.10`
 Expected: Blocked
 
-<img width="678" height="317" alt="image" src="https://github.com/user-attachments/assets/7ca69b39-ad65-4dcf-9979-7bb35fec0313" />
+<img width="1021" height="466" alt="image" src="https://github.com/user-attachments/assets/2b73267e-494d-4af4-9080-51c0150ff5bc" />
+
 
 ### ACL 4: PC30 cannot ping Server0
 From PC30 (VLAN 160):
