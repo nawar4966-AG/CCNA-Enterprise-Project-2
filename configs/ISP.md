@@ -41,7 +41,7 @@ network 192.168.200.0 0.0.0.3 area 0
 network 192.168.200.4 0.0.0.3 area 0
 network 192.168.200.8 0.0.0.3 area 0
 network 192.168.200.12 0.0.0.3 area 0
-network 1.1.1.1 0.0.0.0 area 0  
+network 1.1.1.5 0.0.0.0 area 0  
 ex
 ip route 0.0.0.0 0.0.0.0 s0/1/0  
 ip route 0.0.0.0 0.0.0.0 s0/1/1
