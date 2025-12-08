@@ -74,7 +74,7 @@ Expected:
 Run on switches:
 `show vtp status`
 Expected:
-- VTP domain matches site (scal, scal2, scal3, scal4)
+- VTP domain matches site domain (scal)
 - Server switches: Mode = server
 - Downstream switches: Mode = client
 
