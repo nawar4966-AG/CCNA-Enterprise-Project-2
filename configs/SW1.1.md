@@ -12,6 +12,5 @@ interface range f0/1 - 2
 switchport access vlan 10  
 interface range f0/3 - 4  
 switchport access vlan 20  
-ex  
-ex  
+end  
 wr  
