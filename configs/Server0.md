@@ -1,4 +1,4 @@
-# Server0 Configuration (Packet Tracer)
+# Server0 Configuration (Manually)
 ## 1. IPv4 Configuration 
 IP Address: 192.168.10.10
 Subnet Mask: 255.255.255.0
