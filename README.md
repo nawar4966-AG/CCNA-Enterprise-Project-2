@@ -149,7 +149,7 @@ Essential Tests and expected results in Screenshots.
 - Test deny/permit scenarios from specific PCs:
     - PC30 → ping to Server0 blocked
       `ping 192.168.10.10`
-    - PC23 → telnet to Server0 blocked
+    - PC23 → http to Server0 blocked
       `http://192.168.10.10`
     - VLAN 10 → ping to VLAN 70 blocked
       `ping 192.168.70.2`
