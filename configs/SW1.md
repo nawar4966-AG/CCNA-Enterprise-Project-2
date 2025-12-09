@@ -22,6 +22,5 @@ channel-group 1 mode active
 ex  
 interface range f0/5 - 8  
 channel-group 2 mode active  
-ex  
-ex  
+end  
 wr  
