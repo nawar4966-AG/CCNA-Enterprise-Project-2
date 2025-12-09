@@ -93,7 +93,7 @@ A complete CCNA-level enterprise-style Layer 2 / Layer 3 lab demonstrating VLAN 
 | R4     | 150  | f0/0.150  | 192.168.150.0/24 | 192.168.150.1 |
 | R4     | 160  | f0/0.160  | 192.168.160.0/24 | 192.168.160.1 |
 
-### 4. Interface loopback on R1-4 Routers \32
+### 4. Interface loopback on R1-4 Routers /32
 | Device | Interface            | IP Address |
 | ------ | -------------------- | ---------- |
 | R1     | interface Loopback 0 | 1.1.1.1    |
