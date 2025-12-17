@@ -27,26 +27,26 @@ interface gig0/0/0.40
 encapsulation dot1Q 40  
 ip address 192.168.40.1 255.255.255.0  
 ex  
+ip dhcp excluded-address 192.168.10.1 192.168.10.12  
 ip dhcp pool V10  
 network 192.168.10.0 255.255.255.0  
 default-router 192.168.10.1  
 ex  
-ip dhcp excluded-address 192.168.10.1 192.168.10.12  
+ip dhcp excluded-address 192.168.20.1  
 ip dhcp pool V20  
 network 192.168.20.0 255.255.255.0  
 default-router 192.168.20.1  
 ex  
-ip dhcp excluded-address 192.168.20.1  
+ip dhcp excluded-address 192.168.30.1 
 ip dhcp pool V30  
 network 192.168.30.0 255.255.255.0  
 default-router 192.168.30.1  
 ex  
-ip dhcp excluded-address 192.168.30.1  
+ip dhcp excluded-address 192.168.40.1  
 ip dhcp pool V40  
 network 192.168.40.0 255.255.255.0  
 default-router 192.168.40.1  
 ex  
-ip dhcp excluded-address 192.168.40.1  
 router ospf 1  
 network 192.168.200.0 0.0.0.3 area 0  
 network 192.168.10.0 0.0.0.255 area 0  
